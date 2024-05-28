@@ -87,28 +87,36 @@ header ul li a:hover {
 /* End Header */
 
 /* Jumbotron CSS */
-.jumbotron {
+.home {
     color: #272343;
 }
 
-.jumbotron .title h1 {
+.home .title h1 {
     font-style: normal;
     font-size: 2.5em;
     font-weight: normal;
-    padding-top: 5rem;
     padding-left: 2rem;
     padding-right: 2rem;
     box-sizing: border-box;
     color: #272343;
+    text-align: center;
 }
 
-.jumbotron .title p {
+.home .title p {
     font-size: 1em;
-    margin-bottom: 1rem;
     padding-left: 2rem;
     padding-right: 2rem;
     box-sizing: border-box;
     color: #2d334a;
+    text-align: center;
+}
+
+.centered-image {
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
 }
 
 .jumbotron img {
@@ -326,7 +334,7 @@ footer {
 
 footer p {
     font-size: 1em;
-    color: #272343;
+    color: #ffffff;
 }
 /* End Footer */
 
@@ -369,6 +377,7 @@ footer p {
     
     footer p {
         font-size: .8em;
+        color: #ffffff;
     }
 }
 
