@@ -147,7 +147,7 @@ header ul li a:hover {
 /* End About */
 
 /* Our Company */
-.our-company {
+.visi_misi {
     padding: 2rem 3rem;
     box-sizing: border-box;
 }
@@ -173,6 +173,15 @@ header ul li a:hover {
 }
 
 .misi {
+    text-align: center;
+    padding: 2rem;
+    box-sizing: border-box;
+    /* background-color: #272343; */
+    /* border-radius: 1rem; */
+    color: #272343;
+}
+
+.tujuan {
     text-align: center;
     padding: 2rem;
     box-sizing: border-box;
