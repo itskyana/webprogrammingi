@@ -449,7 +449,7 @@ i {
 
 /* About Us Section */
 .about-us {
-    padding: 4rem 2rem;
+    padding: 4rem 2rem 0 2rem;
     /* background-color: #f9f9f9; */
     border-radius: 1rem;
     /* box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1); */
@@ -504,6 +504,84 @@ i {
         font-size: 0.9em;
     }
 }
+
+/* Section Visi dan Misi */
+
+.vision-mission-section {
+    padding: 4rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section-title h1 {
+    font-style: normal;
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #272343;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.section-content {
+    background-color: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+}
+
+.section-content h2 {
+    font-size: 2em;
+    color: #0170B9;
+    margin-bottom: 1rem;
+}
+
+.section-content p {
+    font-size: 1.1em;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.section-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.section-content ul li {
+    font-size: 1.1em;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    position: relative;
+    padding-left: 1.5rem;
+}
+
+.section-content ul li:before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #0170B9;
+    font-size: 1.5em;
+}
+
+@media (max-width: 768px) {
+    .section-content {
+        padding: 1rem;
+    }
+
+    .section-title h1 {
+        font-size: 2em;
+    }
+
+    .section-content h2 {
+        font-size: 1.5em;
+    }
+
+    .section-content p, .section-content ul li {
+        font-size: 1em;
+    }
+}
+/* End Section Visi dan Misi */
 
 /* Kontak Kami Section */
 .contact-us {
@@ -728,7 +806,7 @@ footer {
 }
 
 .footer-section ul li a:hover {
-    color: #272343;
+    color: #0170B9;
 }
 
 .footer-logo {
