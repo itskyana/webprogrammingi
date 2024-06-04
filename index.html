@@ -9,8 +9,9 @@
     <!-- Icon Website -->
     <link rel="icon" type="image/x-icon" href="assets/image/logo_bsi.png">
     <!-- Style -->
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/profile.css">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <!-- <link rel="stylesheet" href="css/profile.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
 
@@ -23,13 +24,21 @@
             <p>Universitas BSI</p>
         </div>
 
+        <!-- Hamburger Menu Icon -->
+        <div class="hamburger">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+
         <!-- Navbar List -->
         <ul>
             <li><a href="index.html">Beranda</a></li>
-            <li><a href="profile.html">Tentang</a></li>
-            <li><a href="http://students.bsi.ac.id/mahasiswa/login_akd.aspx">Ruang Mahasiswa</a></li>
+            <li><a href="tentang.html">Tentang</a></li>
+            <li><a href="program_studi.html">Program Studi</a></li>
+            <li><a href="http://students.bsi.ac.id/mahasiswa/login_akd.aspx">Siakad</a></li>
             <li><a href="https://news.bsi.ac.id/">Berita</a></li>
-            <li><a href="https://www.bsi.ac.id/ubsi/kontak-kami.ajax">Kontak</a></li>
+            <li><a href="kontak.html">Kontak</a></li>
         </ul>
     </header>
 
@@ -38,153 +47,152 @@
         <!-- Title And Image Show -->
         <section class="home">
             <div class="title">
+                <h1 style="margin-top: 100px;">Selamat Datang di <span id="fieldname" style="color: #0170B9;">Universitas BSI</span></h1>
+                <h5>"Kuliah BSI Aja!"</h5>
                 <img src="assets/image/quotes.png" class="centered-image">
-                <h1>Selamat Datang di <span id="fieldname" style="color: #0170B9;">Universitas BSI</span></h1>
-                <p style="text-align: center;">"Kuliah BSI Aja!"</p>
             </div>
             <div class="jumbotron">
                 <img class="img-slideshow" src="assets/image/jumbotron-1.jpg" alt="image slidshow 1">
                 <img class="img-slideshow" src="assets/image/jumbotron-2.jpg" alt="image slidshow 2">
-                <img class="img-slideshow" src="assets/image/jumbotron-3.jpeg" alt="image slidshow 3">
+                <img class="img-slideshow" src="assets/image/jumbotron-3.jpg" alt="image slidshow 3">
 
-                <div class="btn-slideshow">
+                <!-- <div class="btn-slideshow">
                     <button onclick="plusDivs(-1)">Kembali</button>
                     <button onclick="plusDivs(1)">Lanjut</button>
-                </div>
+                </div> -->
             </div>
         </section>
 
         <!-- Keunggulan -->
-        <section class="testimonial">
-            <div class="title-testimonial">
+        <section class="keunggulan">
+            <div class="title-keunggulan">
                 <h1><span style="text-decoration: underline; text-decoration-color: #0170B9; color: #272343;">Keunggulan</span> Bina Sarana Informatika</h1>
             </div>
-            <div class="testimonial-content">
-                <div class="inner-1">
+            <div class="keunggulan-content">
+                <div class="inner">
                     <div class="card">
-                            <div class="name">Terakreditasi BAN PT</div>
-                            <br>
-                            <i>"Nomor SK PT 732/KPT/I/2018"</i>
+                        <i class="fas fa-university fa-2x"></i>
+                        <div class="name">Terakreditasi BAN PT</div>
+                        <i>"Nomor SK PT 732/KPT/I/2018"</i>
                     </div>
                 </div>
-                <div class="inner-2">
+                <div class="inner">
                     <div class="card">
-                            <div class="name">Daftar Mudah & Cepat</div>
-                            <br>
-                            <i>Melalui Aplikasi BSI PMB di Playstore</i>
+                        <i class="fas fa-mobile-alt fa-2x"></i>
+                        <div class="name">Daftar Mudah & Cepat</div>
+                        <i>Melalui Aplikasi BSI PMB di Playstore</i>
                     </div>
                 </div>
-                <div class="inner-3">
-                        <div class="card">
-                            <div class="name">Biaya Kuliah Terjangkau</div>
-                            <br>
-                            <i>Mulai dari Rp. 350 Ribu / Bulan</i>
-                        </div>
-                </div>
-                <div class="inner-4">
+                <div class="inner">
                     <div class="card">
+                        <i class="fas fa-money-bill-wave fa-2x"></i>
+                        <div class="name">Biaya Kuliah Terjangkau</div>
+                        <i>Mulai dari Rp. 350 Ribu / Bulan</i>
+                    </div>
+                </div>
+                <div class="inner">
+                    <div class="card">
+                        <i class="fas fa-wallet fa-2x"></i>
                         <div class="name">Biaya Kuliah Dapat Dicicil</div>
-                        <br>
                         <i>Melalui Aplikasi DANA CITA</i>
                     </div>
                 </div>
-                <div class="inner-5">
+                <div class="inner">
                     <div class="card">
+                        <i class="fas fa-graduation-cap fa-2x"></i>
                         <div class="name">Beasiswa</div>
-                        <br>
                         <i>Beasiswa Indonesia Cerdas (Jalur Undangan), Juara, Talenta Digital, KIP, Hafidz Quran</i>
                     </div>
                 </div>
-                <div class="inner-6">
+                <div class="inner">
                     <div class="card">
+                        <i class="fas fa-briefcase fa-2x"></i>
                         <div class="name">Kelas Karyawan</div>
-                        <br>
                         <i>Jam Kuliah Sore/Malam</i>
                     </div>
                 </div>
-                <div class="inner-7">
+                <div class="inner">
                     <div class="card">
+                        <i class="fas fa-chalkboard-teacher fa-2x"></i>
                         <div class="name">Dosen Kompeten</div>
-                        <br>
                         <i>Memiliki Sertifikat Kompetensi BNSP, Cisco & Oracle</i>
                     </div>
                 </div>
-                <div class="inner-8">
+                <div class="inner">
                     <div class="card">
+                        <i class="fas fa-users fa-2x"></i>
                         <div class="name">Student Affair</div>
-                        <br>
                         <i>BSI Center, Incubator BSI Center, LPPM, LSP BSI & Aplikasi Mobile</i>
                     </div>
                 </div>
-                <div class="inner-9">
+                <div class="inner">
                     <div class="card">
+                        <i class="fas fa-certificate fa-2x"></i>
                         <div class="name">Sertifikat Kompetensi</div>
-                        <br>
                         <i>Lulusan Bersertifikat BNSP, Cisco & Preinexus</i>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="testimonial">
-            <div class="title-testimonial">
-                <h1><span style="text-decoration: underline; text-decoration-color: #0170B9; color: #272343;">Fakultas</span> & <span style="text-decoration: underline; text-decoration-color: #0170B9; color: #272343;">Program Studi</span></h1>
+
+        <!-- Persyaratan Pendaftaran -->
+        <section class="registration-requirements">
+            <div class="title-registration">
+                <h1><span style="text-decoration: underline; text-decoration-color: #0170B9; color: #272343;">Persyaratan</span> Pendaftaran</h1>
             </div>
-            <div class="testimonial-content">
-                <div class="inner-1">
-                    <div class="card">
-                            <div class="name">Teknik & Informatika</div>
-                            <br>
-                            <ul style="text-align: left;">
-                                <li>Sistem Informasi (S1)</li>
-                                <li>Teknologi Informasi (S1)</li>
-                                <li>Software Engineering (S1)</li>
-                                <li>Informatika (S1)</li>
-                                <li>Teknik Industri (S1)</li>
-                                <li>Teknik Elektro (S1)</li>
-                                <li>Sistem Informasi (D3)</li>
-                                <li>Sistem Informasi Akuntansi (D3)</li>
-                                <li>Teknologi Komputer (D3)</li>
-                            </ul>
-                    </div>
-                </div>
-                <div class="inner-2">
-                    <div class="card">
-                        <div class="name">Komunikasi & Bahasa</div>
-                        <br>
-                        <ul style="text-align: left;">
-                            <li>Ilmu Komunikasi (S1)</li>
-                            <li>Sastra Inggris (S1)</li>
-                            <li>Public Relations (D3)</li>
-                            <li>Broadcasting (D3)</li>
-                            <li>Advertising (D3)</li>
-                            <li>Bahasa Inggris (D3)</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="inner-3">
-                    <div class="card">
-                        <div class="name">Ekonomi & Bisnis</div>
-                        <br>
-                        <ul style="text-align: left;">
-                            <li>Ilmu Komunikasi (S1)</li>
-                            <li>Sastra Inggris (S1)</li>
-                            <li>Public Relations (D3)</li>
-                            <li>Broadcasting (D3)</li>
-                            <li>Advertising (D3)</li>
-                            <li>Bahasa Inggris (D3)</li>
-                        </ul>
-                    </div>
-                </div>
+            <div class="requirements">
+                <ul>
+                    <li>Lulusan SLTA/Sederajat</li>
+                    <li>Lulus ujian saringan penerimaan mahasiswa baru</li>
+                    <li>Membayar pendaftaran Rp 260.000,- (D3/S1)</li>
+                    <li>Mengisi formulir pendaftaran secara online</li>
+                    <li>Scan akta kelahiran & kartu keluarga</li>
+                    <li>Scan ijasah bolak-balik (dapat menyusul)</li>
+                    <li>Perkuliahan wajib menggunakan laptop/notebook</li>
+                </ul>
+            </div>
+            <div class="registration-steps">
+                <img src="assets/image/registration_steps.png" alt="Langkah-langkah Pendaftaran" class="registration-image">
             </div>
         </section>
+        <!-- End Persyaratan Pendaftaran -->
     </main>
 
     <!-- Footer -->
     <footer>
-        <p style="color: #ffffff;">&copy; Universitas Bina Sarana Informatika </p>
+        <div class="footer-content">
+            <div class="footer-section about">
+                <img src="assets/image/logo_bsi.png" alt="Universitas BSI Logo" class="footer-logo">
+                <h3>Universitas Bina Sarana Informatika</h3>
+                <p>Memberikan pendidikan berkualitas dan unggul dalam bidang teknologi dan informasi.</p>
+            </div>
+            <div class="footer-section links">
+                <h3>Tautan Berguna</h3>
+                <ul>
+                    <li><a href="index.html">Beranda</a></li>
+                    <li><a href="profile.html">Tentang</a></li>
+                    <li><a href="http://students.bsi.ac.id/mahasiswa/login_akd.aspx">Ruang Mahasiswa</a></li>
+                    <li><a href="https://news.bsi.ac.id/">Berita</a></li>
+                    <li><a href="https://www.bsi.ac.id/ubsi/kontak-kami.ajax">Kontak</a></li>
+                </ul>
+            </div>
+            <div class="footer-section social">
+                <h3>Ikuti Kami</h3>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; Universitas Bina Sarana Informatika | 2024
+        </div>
     </footer>
+    <!-- End Footer -->
 
     <!-- Script -->
-    <script src="js/script.js"></script>
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
