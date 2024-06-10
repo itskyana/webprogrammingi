@@ -20,6 +20,10 @@
     background-color: #0170B9;
 }
 
+.active {
+    color: #0170B9;
+}
+
 textarea:focus, input:focus{
     -webkit-transition: .3s;
     transition: .3s;
